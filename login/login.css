@@ -1,0 +1,92 @@
+body{
+	background-color: #333333;
+	font-family: arial,"微軟正黑體";
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.header{
+	background-color: #4d4d4d;
+	font-size: 20px;
+	padding: 15px;
+
+}
+.header a{
+	color: white;
+}
+
+
+span i {
+	color: #ccc;
+	padding-right: 10px;
+}
+
+.header a:hover{
+	text-decoration: none;
+	color: #bfbfbf;
+}
+
+.container{
+	margin: 200px auto; 
+}
+
+.loginpg{
+	max-width: 500px;
+	margin: 50px auto;
+	color: black;
+	padding: 30px;
+	background-color:  #f2f2f2;
+	border-radius: 20px;
+}
+
+.loginpg h1{
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 2;
+}
+
+.form-group label{
+	font-size: 18px;
+	line-height: 1.6;
+	margin-bottom: 5px;
+}
+
+.form-group input{
+	background-color: transparent;
+	border:1px solid #000;
+	color: black;
+	margin-bottom: 20px;
+}
+
+.forgetpass,.register{
+	margin-top: 10px;
+	display: block;
+	text-align: right;
+}
+
+.register{
+	text-align: center;
+}
+
+.forgetpass a,.register a:hover{
+	color: black;
+}
+
+.showbtn{
+	background-color: transparent;
+	border: 1px solid #000;
+	color: black;
+}
+
+.showbtn:hover{
+	color: white;
+	background-color: #262626;
+}
+
+.form-group:nth-child(3){
+	margin-top: 60px;
+}
