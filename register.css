@@ -1,0 +1,84 @@
+body{
+	background-color: #333333;
+	font-family: arial,"微軟正黑體";
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.header{
+	background-color: #4d4d4d;
+	font-size: 20px;
+	padding: 15px;
+}
+
+span i {
+	color: #ccc;
+	padding-right: 10px;
+}
+
+.header a:hover{
+	text-decoration: none;
+	color: #bfbfbf;
+}
+
+.signpg{
+	max-width: 450px;
+	margin: 50px auto;
+	color: white;
+}
+
+.signpg h1{
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 2;
+}
+
+.form-group label{
+	font-size: 18px;
+	line-height: 1.6;
+	margin-bottom: 5px;
+}
+
+.form-group input{
+	background-color: transparent;
+	border:1px solid #fff;
+	color: white;
+	margin-bottom: 20px;
+}
+
+.forgetpass,.register{
+	margin-top: 10px;
+	display: block;
+	text-align: right;
+}
+
+.login{
+	text-align: center;
+}
+
+.login a{
+	margin-left: 10px;
+}
+
+.forgetpass a,.login a:hover{
+	color: white;
+}
+
+.showbtn{
+	background-color: transparent;
+	border: 1px solid #fff;
+	color: white;
+}
+
+.showbtn:hover{
+	color: white;
+	background-color: #262626;
+}
+
+.form-group:nth-child(4){
+	margin-top: 60px;
+}
